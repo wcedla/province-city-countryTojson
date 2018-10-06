@@ -16,7 +16,6 @@ namespace JsonTool
         ArrayList citylist = new ArrayList();//城市的集合
         ArrayList parentlist = new ArrayList();//市级的集合
         ArrayList adminlist = new ArrayList();//省级的集合
-        //ArrayList all = new ArrayList();
 
         Boolean newadmin = false;//用于判断是在同个省份中发现市级不一样的情况
         string admintemptext = "", parenttemptext = "", citytemptext = "";//用于存储合并后的各级字符串
